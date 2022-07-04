@@ -1,16 +1,21 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
-int main(void) {
-   int numb;
-   char ch;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int n;
+char alpha;
 
-   for (numb = 48 ; numb <= 57 ; numb++) {
-      putchar(numb);
-   }
-
-   for (ch = 'a' ; ch <= 'f' ; ch++) {
-      putchar(ch);
-   }
-   putchar('\n');   
-   return (0);
+for (n  = 0; n  <= 9  ; n++)
+printf("%d", n);
+for (alpha = 'a'; alpha <= 'f' ; alpha++)
+putchar(alpha);
+printf("\n");
+return (0);
 }

@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include <stdlib.h>
 
+#include <time.h>
+
+#include <stdio.h>
 /**
- * main - Prints the 10 digits of base 10 from 0-9.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-   int ch;
+	int n
+		;
+	for (n  = 0; n  <= 9  ; n++)
+	printf("%d", n);
+	printf("\n");
 
-   for (ch = 48 ; ch <= 57 ; ch++)
-   {
-      putchar(ch);
-   }
-
-   putchar('\n');
-   return (0);
+	return (0);
 }
